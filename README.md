@@ -124,6 +124,21 @@ movies = lotr.Movie.query.filter(academy_award_wins__gt=10).fetch()
 
 ```
 
+## Error handling
+
+SDK have embeded exceptions that thrown in case API returning error:
+
+```python
+
+from seva_zaika_sdk.exceptions import LotrApiError
+
+try:
+	book = lotr.Book.query.filter(_id="5cf58080b53e011a64671584").fetch_one()
+except LotrApiError:
+	book = None
+
+```
+
 # Testing
 
 ```
