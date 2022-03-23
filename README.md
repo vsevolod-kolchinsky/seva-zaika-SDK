@@ -2,9 +2,11 @@ Welcome to Seva Zaika LOTR API SDK!
 
 # Installing
 
-FIXME
+```
+pip install seva_zaika_sdk
+```
 
-# Using
+# Usage
 
 ## Basic usage
 
@@ -124,4 +126,6 @@ movies = lotr.Movie.query.filter(academy_award_wins__gt=10).fetch()
 
 # Testing
 
-FIXME
+```
+pytest -s
+```

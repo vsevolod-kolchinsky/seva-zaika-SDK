@@ -1,0 +1,406 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Authorization:
+      - Bearer 7DdfgMYZxv2bgKRY3mB4
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.27.1
+    method: GET
+    uri: https://the-one-api.dev/v2/movie?limit=5
+  response:
+    body:
+      string: '{"docs":[{"_id":"5cd95395de30eff6ebccde56","name":"The Lord of the
+        Rings Series","runtimeInMinutes":558,"budgetInMillions":281,"boxOfficeRevenueInMillions":2917,"academyAwardNominations":30,"academyAwardWins":17,"rottenTomatoesScore":94},{"_id":"5cd95395de30eff6ebccde57","name":"The
+        Hobbit Series","runtimeInMinutes":462,"budgetInMillions":675,"boxOfficeRevenueInMillions":2932,"academyAwardNominations":7,"academyAwardWins":1,"rottenTomatoesScore":66.33333333},{"_id":"5cd95395de30eff6ebccde58","name":"The
+        Unexpected Journey","runtimeInMinutes":169,"budgetInMillions":200,"boxOfficeRevenueInMillions":1021,"academyAwardNominations":3,"academyAwardWins":1,"rottenTomatoesScore":64},{"_id":"5cd95395de30eff6ebccde59","name":"The
+        Desolation of Smaug","runtimeInMinutes":161,"budgetInMillions":217,"boxOfficeRevenueInMillions":958.4,"academyAwardNominations":3,"academyAwardWins":0,"rottenTomatoesScore":75},{"_id":"5cd95395de30eff6ebccde5a","name":"The
+        Battle of the Five Armies","runtimeInMinutes":144,"budgetInMillions":250,"boxOfficeRevenueInMillions":956,"academyAwardNominations":1,"academyAwardWins":0,"rottenTomatoesScore":60}],"total":8,"limit":5,"offset":0,"page":1,"pages":2}'
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Connection:
+      - Keep-Alive
+      Content-Length:
+      - '1185'
+      Content-Security-Policy:
+      - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self''
+        https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src
+        ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 23 Mar 2022 16:31:25 GMT
+      ETag:
+      - W/"4a1-e0qZdTfv0LVextIqqoBPHl92g1k"
+      Expect-CT:
+      - max-age=0
+      Keep-Alive:
+      - timeout=5, max=100
+      Referrer-Policy:
+      - no-referrer
+      Server:
+      - Apache/2.4.41 (Ubuntu)
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains
+      X-Content-Type-Options:
+      - nosniff
+      X-DNS-Prefetch-Control:
+      - 'off'
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-RateLimit-Limit:
+      - '100'
+      X-RateLimit-Remaining:
+      - '98'
+      X-RateLimit-Reset:
+      - '1648053560'
+      X-XSS-Protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Authorization:
+      - Bearer 7DdfgMYZxv2bgKRY3mB4
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.27.1
+    method: GET
+    uri: https://the-one-api.dev/v2/movie/5cd95395de30eff6ebccde56
+  response:
+    body:
+      string: '{"docs":[{"_id":"5cd95395de30eff6ebccde56","name":"The Lord of the
+        Rings Series","runtimeInMinutes":558,"budgetInMillions":281,"boxOfficeRevenueInMillions":2917,"academyAwardNominations":30,"academyAwardWins":17,"rottenTomatoesScore":94}],"total":1,"limit":1000,"offset":0,"page":1,"pages":1}'
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Connection:
+      - Keep-Alive
+      Content-Length:
+      - '292'
+      Content-Security-Policy:
+      - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self''
+        https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src
+        ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 23 Mar 2022 16:31:25 GMT
+      ETag:
+      - W/"124-rMpzkQgACxn6GAbybMj5DfZZN7A"
+      Expect-CT:
+      - max-age=0
+      Keep-Alive:
+      - timeout=5, max=100
+      Referrer-Policy:
+      - no-referrer
+      Server:
+      - Apache/2.4.41 (Ubuntu)
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains
+      X-Content-Type-Options:
+      - nosniff
+      X-DNS-Prefetch-Control:
+      - 'off'
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-RateLimit-Limit:
+      - '100'
+      X-RateLimit-Remaining:
+      - '97'
+      X-RateLimit-Reset:
+      - '1648053560'
+      X-XSS-Protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Authorization:
+      - Bearer 7DdfgMYZxv2bgKRY3mB4
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.27.1
+    method: GET
+    uri: https://the-one-api.dev/v2/movie/5cd95395de30eff6ebccde57
+  response:
+    body:
+      string: '{"docs":[{"_id":"5cd95395de30eff6ebccde57","name":"The Hobbit Series","runtimeInMinutes":462,"budgetInMillions":675,"boxOfficeRevenueInMillions":2932,"academyAwardNominations":7,"academyAwardWins":1,"rottenTomatoesScore":66.33333333}],"total":1,"limit":1000,"offset":0,"page":1,"pages":1}'
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Connection:
+      - Keep-Alive
+      Content-Length:
+      - '288'
+      Content-Security-Policy:
+      - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self''
+        https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src
+        ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 23 Mar 2022 16:31:26 GMT
+      ETag:
+      - W/"120-UzjxPo12aTtmXxyJy/Odywe9OBc"
+      Expect-CT:
+      - max-age=0
+      Keep-Alive:
+      - timeout=5, max=100
+      Referrer-Policy:
+      - no-referrer
+      Server:
+      - Apache/2.4.41 (Ubuntu)
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains
+      X-Content-Type-Options:
+      - nosniff
+      X-DNS-Prefetch-Control:
+      - 'off'
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-RateLimit-Limit:
+      - '100'
+      X-RateLimit-Remaining:
+      - '96'
+      X-RateLimit-Reset:
+      - '1648053560'
+      X-XSS-Protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Authorization:
+      - Bearer 7DdfgMYZxv2bgKRY3mB4
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.27.1
+    method: GET
+    uri: https://the-one-api.dev/v2/movie/5cd95395de30eff6ebccde58
+  response:
+    body:
+      string: '{"docs":[{"_id":"5cd95395de30eff6ebccde58","name":"The Unexpected Journey","runtimeInMinutes":169,"budgetInMillions":200,"boxOfficeRevenueInMillions":1021,"academyAwardNominations":3,"academyAwardWins":1,"rottenTomatoesScore":64}],"total":1,"limit":1000,"offset":0,"page":1,"pages":1}'
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Connection:
+      - Keep-Alive
+      Content-Length:
+      - '284'
+      Content-Security-Policy:
+      - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self''
+        https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src
+        ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 23 Mar 2022 16:31:26 GMT
+      ETag:
+      - W/"11c-boVMzQR1p7y2VRGfhFnIBRD3HSs"
+      Expect-CT:
+      - max-age=0
+      Keep-Alive:
+      - timeout=5, max=100
+      Referrer-Policy:
+      - no-referrer
+      Server:
+      - Apache/2.4.41 (Ubuntu)
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains
+      X-Content-Type-Options:
+      - nosniff
+      X-DNS-Prefetch-Control:
+      - 'off'
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-RateLimit-Limit:
+      - '100'
+      X-RateLimit-Remaining:
+      - '95'
+      X-RateLimit-Reset:
+      - '1648053560'
+      X-XSS-Protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Authorization:
+      - Bearer 7DdfgMYZxv2bgKRY3mB4
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.27.1
+    method: GET
+    uri: https://the-one-api.dev/v2/movie/5cd95395de30eff6ebccde59
+  response:
+    body:
+      string: '{"docs":[{"_id":"5cd95395de30eff6ebccde59","name":"The Desolation of
+        Smaug","runtimeInMinutes":161,"budgetInMillions":217,"boxOfficeRevenueInMillions":958.4,"academyAwardNominations":3,"academyAwardWins":0,"rottenTomatoesScore":75}],"total":1,"limit":1000,"offset":0,"page":1,"pages":1}'
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Connection:
+      - Keep-Alive
+      Content-Length:
+      - '286'
+      Content-Security-Policy:
+      - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self''
+        https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src
+        ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 23 Mar 2022 16:31:26 GMT
+      ETag:
+      - W/"11e-u9nH3rISs5XfoMND/3Gv04hhTQo"
+      Expect-CT:
+      - max-age=0
+      Keep-Alive:
+      - timeout=5, max=100
+      Referrer-Policy:
+      - no-referrer
+      Server:
+      - Apache/2.4.41 (Ubuntu)
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains
+      X-Content-Type-Options:
+      - nosniff
+      X-DNS-Prefetch-Control:
+      - 'off'
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-RateLimit-Limit:
+      - '100'
+      X-RateLimit-Remaining:
+      - '94'
+      X-RateLimit-Reset:
+      - '1648053560'
+      X-XSS-Protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Authorization:
+      - Bearer 7DdfgMYZxv2bgKRY3mB4
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.27.1
+    method: GET
+    uri: https://the-one-api.dev/v2/movie/5cd95395de30eff6ebccde5a
+  response:
+    body:
+      string: '{"docs":[{"_id":"5cd95395de30eff6ebccde5a","name":"The Battle of the
+        Five Armies","runtimeInMinutes":144,"budgetInMillions":250,"boxOfficeRevenueInMillions":956,"academyAwardNominations":1,"academyAwardWins":0,"rottenTomatoesScore":60}],"total":1,"limit":1000,"offset":0,"page":1,"pages":1}'
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Connection:
+      - Keep-Alive
+      Content-Length:
+      - '290'
+      Content-Security-Policy:
+      - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self''
+        https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src
+        ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 23 Mar 2022 16:31:26 GMT
+      ETag:
+      - W/"122-MNa/mMTuwpsdJjoYUxWzP9PzBCw"
+      Expect-CT:
+      - max-age=0
+      Keep-Alive:
+      - timeout=5, max=100
+      Referrer-Policy:
+      - no-referrer
+      Server:
+      - Apache/2.4.41 (Ubuntu)
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains
+      X-Content-Type-Options:
+      - nosniff
+      X-DNS-Prefetch-Control:
+      - 'off'
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-RateLimit-Limit:
+      - '100'
+      X-RateLimit-Remaining:
+      - '93'
+      X-RateLimit-Reset:
+      - '1648053560'
+      X-XSS-Protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+version: 1

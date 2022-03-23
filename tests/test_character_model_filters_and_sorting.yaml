@@ -1,0 +1,85 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate, br
+      Authorization:
+      - Bearer 7DdfgMYZxv2bgKRY3mB4
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.27.1
+    method: GET
+    uri: https://the-one-api.dev/v2/character?name=%2Ffoot%2Fi
+  response:
+    body:
+      string: "{\"docs\":[{\"_id\":\"5cd99d4bde30eff6ebccfe97\",\"height\":\"\",\"race\":\"Hobbit\",\"gender\":\"\",\"birth\":\"\",\"spouse\":\"\",\"death\":\"\",\"realm\":\"\",\"hair\":\"\",\"name\":\"Bodo
+        Proudfoot\",\"wikiUrl\":\"http://lotr.wikia.com//wiki/Bodo_Proudfoot\"},{\"_id\":\"5cdbdecb6dc0baeae48cfab4\",\"death\":\"NaN\",\"birth\":\"NaN\",\"hair\":\"NaN\",\"realm\":\"NaN\",\"height\":\"NaN\",\"spouse\":\"NaN\",\"gender\":\"NaN\",\"name\":\"Daddy
+        Twofoot\",\"race\":\"NaN\"},{\"_id\":\"5cd99d4bde30eff6ebccfcab\",\"height\":\"4'5
+        - 5' (Estimate)\",\"race\":\"Dwarf\",\"gender\":\"Male\",\"birth\":\"TA 2767\",\"spouse\":\"Unnamed
+        wife\",\"death\":\"March 17 ,3019\",\"realm\":\"Lonely Mountain\",\"hair\":\"\",\"name\":\"D\xE1in
+        II Ironfoot\",\"wikiUrl\":\"http://lotr.wikia.com//wiki/D%C3%A1in_II_Ironfoot\"},{\"_id\":\"5cd99d4bde30eff6ebccfe9c\",\"height\":\"\",\"race\":\"Hobbit\",\"gender\":\"\",\"birth\":\"\",\"spouse\":\"\",\"death\":\"\",\"realm\":\"\",\"hair\":\"\",\"name\":\"Linda
+        (Baggins) Proudfoot\",\"wikiUrl\":\"http://lotr.wikia.com//wiki/Linda_(Baggins)_Proudfoot\"},{\"_id\":\"5cd99d4bde30eff6ebccfdd2\",\"height\":\"\",\"race\":\"Hobbit\",\"gender\":\"Female\",\"birth\":\"Late
+        ,Third Age\",\"spouse\":\"Odo Proudfoot\",\"death\":\"\",\"realm\":\"\",\"hair\":\"\",\"name\":\"Mrs.
+        Proudfoot\",\"wikiUrl\":\"http://lotr.wikia.com//wiki/Mrs._Proudfoot\"},{\"_id\":\"5cd99d4bde30eff6ebccfdb8\",\"height\":\"\",\"race\":\"Hobbit\",\"gender\":\"Female\",\"birth\":\"SR
+        1261\",\"spouse\":\"Theobald Bolger\",\"death\":\"\",\"realm\":\"Shire\",\"hair\":\"\",\"name\":\"Nina
+        Lightfoot\",\"wikiUrl\":\"http://lotr.wikia.com//wiki/Nina_Lightfoot\"},{\"_id\":\"5cd99d4bde30eff6ebccfdc5\",\"height\":\"\",\"race\":\"Dwarf\",\"gender\":\"Male\",\"birth\":\"TA
+        2665\",\"spouse\":\"Unnamed wife\",\"death\":\"TA 2799\",\"realm\":\"\",\"hair\":\"\",\"name\":\"N\xE1in
+        (father of D\xE1in II Ironfoot)\",\"wikiUrl\":\"http://lotr.wikia.com//wiki/N%C3%A1in_(father_of_D%C3%A1in_II_Ironfoot)\"},{\"_id\":\"5cd99d4bde30eff6ebccfdd5\",\"height\":\"\",\"race\":\"Hobbit\",\"gender\":\"Male\",\"birth\":\"TA
+        2904\",\"spouse\":\"Mrs. Proudfoot\",\"death\":\"TA 3005\",\"realm\":\"\",\"hair\":\"Brown
+        Gray (movie)\",\"name\":\"Odo Proudfoot\",\"wikiUrl\":\"http://lotr.wikia.com//wiki/Odo_Proudfoot\"},{\"_id\":\"5cd99d4bde30eff6ebccfe99\",\"height\":\"\",\"race\":\"Hobbit\",\"gender\":\"\",\"birth\":\"\",\"spouse\":\"\",\"death\":\"\",\"realm\":\"\",\"hair\":\"\",\"name\":\"Olo
+        Proudfoot\",\"wikiUrl\":\"http://lotr.wikia.com//wiki/Olo_Proudfoot\"},{\"_id\":\"5cd99d4bde30eff6ebccfe98\",\"height\":\"\",\"race\":\"Hobbit\",\"gender\":\"\",\"birth\":\"\",\"spouse\":\"\",\"death\":\"\",\"realm\":\"\",\"hair\":\"\",\"name\":\"Sancho
+        Proudfoot\",\"wikiUrl\":\"http://lotr.wikia.com//wiki/Sancho_Proudfoot\"},{\"_id\":\"5cdbdecb6dc0baeae48cfaa9\",\"death\":\"NaN\",\"birth\":\"NaN\",\"hair\":\"NaN\",\"realm\":\"NaN\",\"height\":\"NaN\",\"spouse\":\"NaN\",\"gender\":\"NaN\",\"name\":\"Will
+        Whitfoot\",\"race\":\"NaN\"}],\"total\":11,\"limit\":1000,\"offset\":0,\"page\":1,\"pages\":1}"
+    headers:
+      Access-Control-Allow-Origin:
+      - '*'
+      Connection:
+      - Keep-Alive
+      Content-Length:
+      - '2585'
+      Content-Security-Policy:
+      - 'default-src ''self'';base-uri ''self'';block-all-mixed-content;font-src ''self''
+        https: data:;frame-ancestors ''self'';img-src ''self'' data:;object-src ''none'';script-src
+        ''self'';script-src-attr ''none'';style-src ''self'' https: ''unsafe-inline'';upgrade-insecure-requests'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Wed, 23 Mar 2022 17:45:48 GMT
+      ETag:
+      - W/"a19-TyOnlgRbG5ulgTkBANfhQObg3JQ"
+      Expect-CT:
+      - max-age=0
+      Keep-Alive:
+      - timeout=5, max=100
+      Referrer-Policy:
+      - no-referrer
+      Server:
+      - Apache/2.4.41 (Ubuntu)
+      Strict-Transport-Security:
+      - max-age=15552000; includeSubDomains
+      X-Content-Type-Options:
+      - nosniff
+      X-DNS-Prefetch-Control:
+      - 'off'
+      X-Download-Options:
+      - noopen
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Permitted-Cross-Domain-Policies:
+      - none
+      X-RateLimit-Limit:
+      - '100'
+      X-RateLimit-Remaining:
+      - '91'
+      X-RateLimit-Reset:
+      - '1648057760'
+      X-XSS-Protection:
+      - '0'
+    status:
+      code: 200
+      message: OK
+version: 1

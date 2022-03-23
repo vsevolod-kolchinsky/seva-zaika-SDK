@@ -1,4 +1,4 @@
-from typing import Any
+from typing import Any, Optional
 
 from .base import BaseEntityApi
 
@@ -27,12 +27,16 @@ class BookChapter:
 
     _id: str
     name: str
+    book_id: Optional[str]
 
-    def __init__(self, api_client, _id: str, chapterName: str) -> None:
+    def __init__(
+        self, api_client, _id: str, chapterName: str, book: Optional[str] = None
+    ) -> None:
         # Note: signature variable names are using camelCase because following
         # the API response format
         self._api_client = api_client
         self._id = _id
+        self.book_id = book
         self.name = chapterName
 
     def __repr__(self) -> str:

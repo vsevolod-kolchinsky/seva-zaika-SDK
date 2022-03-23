@@ -58,9 +58,9 @@ class Client(BaseClient):
         """Request one specific character"""
         return self._get(self.get_endpoint_url("character", character_id), **kwargs)
 
-    def get_character_quotes(self, character_id: str) -> dict:
+    def get_character_quotes(self, character_id: str, **kwargs) -> dict:
         """Request all movie quotes of one specific character"""
-        return self._get(self.get_endpoint_url("character", character_id, "quote"))
+        return self._get(self.get_endpoint_url("character", character_id, "quote"), **kwargs)
 
     def get_characters(self, **kwargs) -> dict:
         """List of characters
