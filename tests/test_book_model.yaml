@@ -7,7 +7,7 @@ interactions:
       Accept-Encoding:
       - gzip, deflate, br
       Authorization:
-      - Bearer 7DdfgMYZxv2bgKRY3mB4
+      - Bearer SECRET
       Connection:
       - keep-alive
       User-Agent:
@@ -74,7 +74,7 @@ interactions:
       Accept-Encoding:
       - gzip, deflate, br
       Authorization:
-      - Bearer 7DdfgMYZxv2bgKRY3mB4
+      - Bearer SECRET
       Connection:
       - keep-alive
       User-Agent:
@@ -141,7 +141,7 @@ interactions:
       Accept-Encoding:
       - gzip, deflate, br
       Authorization:
-      - Bearer 7DdfgMYZxv2bgKRY3mB4
+      - Bearer SECRET
       Connection:
       - keep-alive
       User-Agent:
@@ -208,7 +208,7 @@ interactions:
       Accept-Encoding:
       - gzip, deflate, br
       Authorization:
-      - Bearer 7DdfgMYZxv2bgKRY3mB4
+      - Bearer SECRET
       Connection:
       - keep-alive
       User-Agent:
