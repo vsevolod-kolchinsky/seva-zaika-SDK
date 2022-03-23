@@ -124,6 +124,14 @@ movies = lotr.Movie.query.filter(academy_award_wins__gt=10).fetch()
 
 ```
 
+## Sorting results
+
+```python
+
+movies = lotr.Movie.query.sort(name="asc").fetch()
+
+```
+
 ## Error handling
 
 SDK have embeded exceptions that thrown in case API returning error:
